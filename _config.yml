@@ -8,7 +8,7 @@ relative_permalinks: false
 
 github_repo: "dpismenny/dpismenny.github.com"
 #Comment out url when working locally to resolve base urls correctly
-# url:              http://pismenny.com.ua
+url: http://pismenny.com.ua
 site_mail: 'denis.pismenny@gmail.com'
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones

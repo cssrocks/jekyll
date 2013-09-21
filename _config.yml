@@ -1,0 +1,32 @@
+locale: 'ru'
+name: Денис Письменный
+description: Технический блог
+
+
+production_url: http://pismenny.com.ua
+relative_permalinks: false
+
+github_repo: "dpismenny/dpismenny.github.com"
+#Comment out url when working locally to resolve base urls correctly
+# url:              http://pismenny.com.ua
+site_mail: 'denis.pismenny@gmail.com'
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Kiev
+future:      true
+safe: true
+markdown: kramdown
+# markdown: redcarpet
+pygments: true
+#languages: ["ru"]
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:year/:month/:title/
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Обо мне
+    url: /about
+  - title: Архив
+    url: /articles

@@ -11,18 +11,18 @@
 }
 
 ::selection {
-  background: #7d725c;
+  background: #b0bbc5;
   color: #fff;
 }
 a{
-  color: #7c6b5d;
+  color: #307EA9;
   text-decoration: none;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #e3edfb;
 }
 a:hover{
-  background: #f3f0ea;
-  color: #938d78;
-  border-color: #ddd;
+  background: #ccdcf3;
+  color: #586374;
+  border-color: #ccdcf3;
 }
 
 ul{
@@ -36,14 +36,14 @@ body {
   font-family: 'PT Sans', sans-serif;
   font-size: 15px;
   line-height: 1.4;
-  color: #7c6b5d;
+  color: #000;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'PT Serif', serif;
   font-size: 24px;
   font-weight: 400;
-  color: #7c6b5d;
+  color: #000;
 }
 
 h1 { margin-bottom: 1em; }
@@ -69,16 +69,11 @@ p { margin: 1em 0; }
 /*
 /*****************************************************************************/
 
-.site {
-  width: 650px;
-  margin: 0 auto;
-  padding: 3em;
-}
 
 .header{
   height: 100px;
   line-height: 100px;
-  background-color: #f0ede6;
+  background-color: #e4e7ec;
 }
 .header a {
   color: #7c6b5d;
@@ -96,20 +91,13 @@ p { margin: 1em 0; }
 .header .title a {
   background: none;
   border-bottom: none;
-  color: #7c6b5d;
+  color: #586374;
 }
 
 .header__in{
   width: 650px;
   margin: 0 auto;
 }
-
-
-.site .meta {
-  color: #938d78;
-  font-size: 12px;
-}
-
 .footer {
   width: 90%;
   margin: 0 auto;
@@ -149,6 +137,16 @@ p { margin: 1em 0; }
   border: 0;
 }
 
+.site {
+  width: 650px;
+  margin: 0 auto;
+  padding: 3em;
+}
+
+.site .meta {
+  color: #999;
+  font-size: 12px;
+}
 
 .listing{
   position: relative;
@@ -169,7 +167,7 @@ p { margin: 1em 0; }
   margin-left: 10px;
   text-transform: uppercase;
   font-size: 12px;
-  color: #938d78;
+  color: #999;
 }
 .listing a:hover{
   text-decoration: none;
@@ -186,12 +184,12 @@ p { margin: 1em 0; }
 code {
   padding: 2px 4px;
   font-size: 12px;
-  color: #7c6b5d;
+  color: #000;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
   /*background-color: #e4e7ec;*/
-  background-color: #fafafa;
+  background-color: #f8f8f8;
   border: 1px solid #eee;
   border: 1px solid rgba(0, 0, 0, 0.15);
 }

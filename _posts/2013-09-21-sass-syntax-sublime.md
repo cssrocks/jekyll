@@ -12,7 +12,8 @@ published: true
 
 В меню редактора выбираем `Preferences` > `Browse Packages`.
 Находим папку `Rails` и в ней файл `Ruby Haml.tmLanguage`.
-Открываем файл в Sublime, находим и удаляем следующую строку:
+
+Редактируем этот файл, удаляя следующую строку:
 
 	<string>sass</string>
 

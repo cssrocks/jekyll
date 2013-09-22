@@ -107,18 +107,24 @@ p { margin: 1em 0; }
 }
 
 .footer {
-  color: #666;
-  border-top: 4px solid #eee;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 13px;
+  color: #7b7b7b;
+  border-top: 1px solid #eee;
   overflow: hidden;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box; 
 }
+.footer p{
+  margin: .3em 0;
+}
 
 .footer__in{
   width: 650px;
   margin: 0 auto;
-  padding: 5px 0;
+  padding: 15px 0;
 }
 
 .footer .contact {
@@ -126,7 +132,10 @@ p { margin: 1em 0; }
   margin-right: 3em;
 }
 
-
+.footer__right{
+  float: right;
+  vertical-align: top;
+}
 .footer .rss {
   margin-top: 1.1em;
   margin-right: -.2em;

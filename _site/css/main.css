@@ -6,41 +6,41 @@
 
 /* Global Reset */
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ::selection {
-	background-color: #2B2B2B;
-	color: #eee;
+  background-color: #2B2B2B;
+  color: #eee;
 }
 a{
-	color: #307EA9;
-	text-decoration: none;
-	border-bottom: 1px solid #e3edfb;
+  color: #307EA9;
+  text-decoration: none;
+  border-bottom: 1px solid #e3edfb;
 }
 a:hover{
-	background: #f1f5fb;
-	color: #26559b;
-	border-color: #ccdcf3;
+  background: #f1f5fb;
+  color: #26559b;
+  border-color: #ccdcf3;
 }
 
 ul{
-	list-style-type: none;
+  list-style-type: none;
 }
 
 html, body { height: 100%; }
 
 body {
-	background-color: #FFF;
-	font: 17px Helvetica, Arial, sans-serif;
-	line-height: 1.4;
+  background-color: #FFF;
+  font: 17px Helvetica, Arial, sans-serif;
+  line-height: 1.4;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'PT Serif', serif;
-	font-size: 24px;
-	font-weight: 400;
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 h1 { margin-bottom: 1em; }
@@ -51,13 +51,13 @@ p { margin: 1em 0; }
 /* sticky footer */
 
 .out {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -90px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -90px;
 }
 .footer, .push {
-	height: 90px; /* '.push' must be the same height as 'footer' */
+  height: 90px; /* '.push' must be the same height as 'footer' */
 }
 
 
@@ -68,93 +68,93 @@ p { margin: 1em 0; }
 /*****************************************************************************/
 
 .site {
-	width: 650px;
-	margin: 0 auto;
-	padding: 3em;
+  width: 650px;
+  margin: 0 auto;
+  padding: 3em;
 }
 
 .header{
-	height: 100px;
-	line-height: 100px;
-	background-color: #e4e7ec;
+  height: 100px;
+  line-height: 100px;
+  background-color: #e4e7ec;
 }
 .header a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .header .title {
-	display: inline-block;
-	font-size: 30px;
-	font-weight: 400;
-	color: #586374;
-	margin-bottom: 0;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 400;
+  color: #586374;
+  margin-bottom: 0;
 }
 
 .header .title a {
-	background: none;
-	border-bottom: none;
-	color: inherit;
+  background: none;
+  border-bottom: none;
+  color: inherit;
 }
 
 .header__in{
-	width: 650px;
-	margin: 0 auto;
+  width: 650px;
+  margin: 0 auto;
 }
 
 
 .site .meta {
-	color: #aaa;
+  color: #aaa;
 }
 
 .footer {
-	color: #666;
-	border-top: 4px solid #eee;
-	overflow: hidden;
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box; 
+  color: #666;
+  border-top: 4px solid #eee;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; 
 }
 
 .footer__in{
-	width: 650px;
-	margin: 0 auto;
-	padding: 5px 0;
+  width: 650px;
+  margin: 0 auto;
+  padding: 5px 0;
 }
 
 .footer .contact {
-	display: inline-block;
-	margin-right: 3em;
+  display: inline-block;
+  margin-right: 3em;
 }
 
 
 .footer .rss {
-	margin-top: 1.1em;
-	margin-right: -.2em;
-	float: right;
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
 }
 
 .footer .rss img {
-	border: 0;
+  border: 0;
 }
 
 
 .listing{
-	position: relative;
+  position: relative;
 }
 .listing span{
-	float: right;
-	padding-top: 2px;
-	text-transform: uppercase;
-	font-size: 12px;
-	color: #999;
+  float: right;
+  padding-top: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #999;
 }
 .listing li{
-	font-size: 18px;
-	margin-bottom: .5em;
+  font-size: 18px;
+  margin-bottom: .5em;
 }
 .listing a{
-	display: inline-block;
-	padding: 0 5px;
+  display: inline-block;
+  padding: 0 5px;
 }
 /*****************************************************************************/
 /*
@@ -164,32 +164,32 @@ p { margin: 1em 0; }
 
 /* standard */
 .post pre {
-	border: 1px solid #ddd;
-	background-color: #eef;
-	padding: 0 .4em;
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
 }
 
 .post ul, .post ol {
-	margin-left: 1.35em;
+  margin-left: 1.35em;
 }
 
 .post code {
-	border: 1px solid #ddd;
-	background-color: #eef;
-	padding: 0 .2em;
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
 }
 
 .post pre code {
-	border: none;
+  border: none;
 }
 
 /* terminal */
 .post pre.terminal {
-	border: 1px solid #000;
-	background-color: #333;
-	color: #FFF;
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
 }
 
 .post pre.terminal code {
-	background-color: #333;
+  background-color: #333;
 }

@@ -5,9 +5,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Подсветка синтаксиса Sass в Sublime Text</title>
 	<meta name="viewport" content="width=device-width">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/css/syntax.css">
+	<link rel="stylesheet" href="/css/highlightjs.css">
 	<link rel="stylesheet" href="/css/main.css">
+	<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
 <div class="out">
@@ -23,19 +26,18 @@
 
 
 <div class="post">
-<p>Кто работает с препроцессором Sass в редакторе Sublime Text — знает, что есть одна особенность.
-Когда открываешь Sass-файл синтаксис не распознаётся и, соответственно, подсветка кода не работает. Точнее распознаёт как Ruby Haml, и приходится переключаться на Sass вручную.</p>
+<p>Кто работает с препроцессором Sass в редакторе Sublime Text — знает, что есть одна особенность: когда открываешь Sass-файл синтаксис не распознаётся и, соответственно, подсветка кода не работает. Точнее редактор распознаёт файл как Ruby Haml, и приходится переключаться на Sass вручную.</p>
 
-<p>Если кому-то уже надоело делать эти бессмысленные клики — выход есть.</p>
+<p>Если кому-то уже надоело делать эти бессмысленные клики — есть решение.</p>
 
 <p>В меню редактора выбираем <code>Preferences</code> &gt; <code>Browse Packages</code>.
-Находим папку <code>Rails</code> и файл <code>Ruby Haml.tmLanguage</code>.
+Находим папку <code>Rails</code> и в ней файл <code>Ruby Haml.tmLanguage</code>.
 Открываем файл в Sublime, находим и удаляем следующую строку:</p>
 
-<pre><code class="language-html">&lt;string&gt;sass&lt;/string&gt;
+<pre><code>&lt;string&gt;sass&lt;/string&gt;
 </code></pre>
 
-<p>И даже редактор перезагружать не нужно :-)</p>
+<p>Как-то так.</p>
 
 </div>
 

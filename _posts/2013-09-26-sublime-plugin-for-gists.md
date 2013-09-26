@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Плагин для работы с GitHub Gist в Sublime Text"
+title:  "Sublime Text плагин для работы с GitHub Gist"
 date:   2013-09-26 17:07:22
 categories: post
 ---

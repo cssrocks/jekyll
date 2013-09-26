@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Gist: Создание и редактирование сниппетов в Sublime Text"
+title:  "GitHub Gist и сниппеты в Sublime Text"
 date:   2013-09-26 17:07:22
 categories: post
 ---

@@ -45,27 +45,27 @@
 
 <h3 id="section-1">Настройка</h3>
 
-<p>После установки плагина нужно привязать его к нашему аккаунту на GitHub сгенерировав API Access Token.</p>
+<p>После установки плагина нужно привязать его к нашему аккаунту на GitHub сгенерировав авторизационный токен.</p>
 
 <p>Для этого есть два способа.
 Первый и самый простой — сделать это на сайте GitHub.</p>
 
-<p>Заходим в <a href="https://github.com/settings/applications">Applications</a> и в разделе <strong>Personal Access Tokens</strong> жмём на кнопку <strong>Create new token</strong>. Далее вводим название и копируем сгенерированный ключ.</p>
+<p>Заходим в <a href="https://github.com/settings/applications">Applications</a> и в разделе <strong>Personal Access Tokens</strong> жмём на кнопку <strong>Create new token</strong>. Далее вводим название и копируем сгенерированный токен.</p>
 
 <p>Второй способ — сделать тоже самое через терминал:</p>
 <pre><code class="no-highlight">curl -v -u USERNAME -X POST https://api.github.com/authorizations --data "{\"scopes\":[\"gist\"]}"</code></pre>
 <p>Где <strong>USERNAME</strong> ваше имя пользователя на GitHub.
-Если вы всё сделали правильно, в терминале появится строка со сгенерированным ключом.
+Если вы всё сделали правильно, в терминале появится строка со сгенерированным токеном.
 <img src="/img/gist-ruby.png" alt="Получение token через терминал" /></p>
 
 <p>Если у вас возникли трудности, подробную информацию можно найти <a href="https://github.com/condemil/Gist#generating-access-token">в описании плагина</a>.</p>
 
-<p>Теперь, скопировав token, идём в Sublime Text и дальше <code>Preferences</code> &gt; <code>Browse Packages</code>. В открывшемся окне находим папку <strong>Gist</strong> и открываем в Sublime файл <strong>Gist.sublime-settings</strong>.</p>
+<p>Теперь, скопировав авторизационный токен, идём в Sublime Text и дальше <code>Preferences</code> &gt; <code>Browse Packages</code>. В открывшемся окне находим папку <strong>Gist</strong> и открываем в Sublime файл <strong>Gist.sublime-settings</strong>.</p>
 
 <p>Ищем строку:</p>
 <pre><code class="no-highlight">"token": "",</code></pre>
 
-<p>Вставляем наш <strong>token</strong>, сохраняем файл и на всякий случай перезапускаем редактор.</p>
+<p>Вставляем наш токен, сохраняем файл и на всякий случай перезапускаем редактор.</p>
 
 <h3 id="section-2">Использование</h3>
 

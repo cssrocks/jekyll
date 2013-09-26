@@ -24,27 +24,27 @@ Gist предназначен для хранения и обмена снипп
 
 ### Настройка
 
-После установки плагина нужно привязать его к нашему аккаунту на GitHub сгенерировав API Access Token.
+После установки плагина нужно привязать его к нашему аккаунту на GitHub сгенерировав авторизационный токен.
 
 Для этого есть два способа.
 Первый и самый простой — сделать это на сайте GitHub.
 
-Заходим в [Applications](https://github.com/settings/applications) и в разделе **Personal Access Tokens** жмём на кнопку **Create new token**. Далее вводим название и копируем сгенерированный ключ.
+Заходим в [Applications](https://github.com/settings/applications) и в разделе **Personal Access Tokens** жмём на кнопку **Create new token**. Далее вводим название и копируем сгенерированный токен.
 
 Второй способ — сделать тоже самое через терминал:
 <pre><code class="no-highlight">curl -v -u USERNAME -X POST https://api.github.com/authorizations --data "{\"scopes\":[\"gist\"]}"</code></pre>
 Где **USERNAME** ваше имя пользователя на GitHub.
-Если вы всё сделали правильно, в терминале появится строка со сгенерированным ключом.
+Если вы всё сделали правильно, в терминале появится строка со сгенерированным токеном.
 ![Получение token через терминал](/img/gist-ruby.png)
 
 Если у вас возникли трудности, подробную информацию можно найти [в описании плагина](https://github.com/condemil/Gist#generating-access-token).
 
-Теперь, скопировав token, идём в Sublime Text и дальше `Preferences` > `Browse Packages`. В открывшемся окне находим папку **Gist** и открываем в Sublime файл **Gist.sublime-settings**.
+Теперь, скопировав авторизационный токен, идём в Sublime Text и дальше `Preferences` > `Browse Packages`. В открывшемся окне находим папку **Gist** и открываем в Sublime файл **Gist.sublime-settings**.
 
 Ищем строку:
 <pre><code class="no-highlight">"token": "",</code></pre>
 
-Вставляем наш **token**, сохраняем файл и на всякий случай перезапускаем редактор.
+Вставляем наш токен, сохраняем файл и на всякий случай перезапускаем редактор.
 
 ### Использование
 

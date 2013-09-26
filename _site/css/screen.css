@@ -52,15 +52,15 @@ pre code { display: block; padding: 5px 15px; margin: 0 0 9px; font-size: 12px; 
 .footer .rss { margin-top: 1.1em; margin-right: -0.2em; float: right; }
 .footer .rss img { border: 0; }
 
-.site { width: 650px; margin: 0 auto; padding: 3em; }
-.site .meta { color: #999999; font-size: 12px; }
-.site h3 { font-size: 20px; }
+.content { width: 650px; margin: 0 auto; padding: 3em; }
+.content .date { color: #999999; font-size: 12px; }
+.content h3 { font-size: 20px; }
 
-.listing { position: relative; }
-.listing li { font-size: 18px; margin-bottom: 0.5em; padding: 0 10px 0 5px; border-bottom: 1px solid #e4e7ec; }
-.listing a { text-decoration: none; border: none; }
-.listing a:hover { text-decoration: none; background: none; }
-.listing span { float: right; padding-top: 6px; margin-left: 10px; text-transform: uppercase; font-size: 12px; color: #999999; }
+.archive .archive__listing { position: relative; }
+.archive .archive__listing li { font-size: 18px; margin-bottom: 0.5em; padding: 0 10px 0 5px; border-bottom: 1px solid #e4e7ec; }
+.archive .archive__listing a { text-decoration: none; border: none; }
+.archive .archive__listing a:hover { text-decoration: none; background: none; }
+.archive .archive__listing span { float: right; padding-top: 6px; margin-left: 10px; text-transform: uppercase; font-size: 12px; color: #999999; }
 
-.post ul, .post ol { margin-left: 1.35em; }
-.post ul { list-style-type: square; }
+.article ul, .article ol { margin-left: 1.35em; }
+.article ul { list-style-type: square; }

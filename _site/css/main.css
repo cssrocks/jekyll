@@ -148,6 +148,10 @@ p { margin: 1em 0; }
   font-size: 12px;
 }
 
+.site h3 {
+  font-size: 20px;
+}
+
 .listing{
   position: relative;
 }
@@ -192,6 +196,7 @@ code {
   background-color: #f8f8f8;
   border: 1px solid #eee;
   border: 1px solid rgba(0, 0, 0, 0.15);
+  white-space: nowrap;
 }
 
 pre code {

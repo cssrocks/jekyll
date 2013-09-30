@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Philosopher:400,700,400italic,700italic&subset=latin,cyrillic);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext,latin-ext,cyrillic);
 @import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic&subset=latin,cyrillic-ext,latin-ext,cyrillic);
 * { margin: 0; padding: 0; }
@@ -41,7 +42,7 @@ pre code { display: block; padding: 5px 15px; margin: 0 0 9px; font-size: 12px; 
 .header { height: 100px; line-height: 100px; background-color: #e4e7ec; }
 .header a { color: #7c6b5d; text-decoration: none; }
 .header .header__in { width: 650px; margin: 0 auto; }
-.header .title { display: inline-block; font-size: 30px; font-weight: 400; color: #586374; margin-bottom: 0; }
+.header .title { display: inline-block; font-family: "Philosopher", sans-serif; font-size: 30px; font-weight: 700; font-style: italic; color: #586374; margin-bottom: 0; }
 .header .title a { background: none; border-bottom: none; color: #586374; }
 
 .footer { width: 90%; margin: 0 auto; font-size: 13px; border-top: 1px solid #eeeeee; overflow: hidden; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }

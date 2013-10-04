@@ -65,3 +65,8 @@ pre code { display: block; padding: 5px 15px; margin: 0 0 9px; font-size: 12px; 
 .article ul, .article ol { margin-left: 1.35em; }
 .article ul { list-style-type: square; }
 .article img { display: block; margin: 0 auto; }
+
+.share-widget a { border: 0; margin-right: 10px; }
+.share-widget a:hover { background-color: transparent; }
+.share-widget .addthis_button_facebook_like { overflow: hidden; width: 45px !important; }
+.share-widget .addthis_pill_style { width: 50px !important; }

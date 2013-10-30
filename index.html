@@ -3,14 +3,15 @@ layout: default
 title: Денис Письменный
 ---
 
-<section class="archive" id="home">
-  <!-- <h1>Архив записей</h1> -->
-  <ul class="archive__listing">
-    {% for post in site.posts %}
-      <li>
-      	<a href="{{ post.url }}">{{ post.title }}</a>
-      	<em>{{ post.date | date: "%d.%m.%Y" }}</em>
-      </li>
-    {% endfor %}
-  </ul>
+<section class="archive">
+	<div class="wrap">
+		<ul>
+			{% for post in site.posts %}
+				<li>
+					<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+					<em class="archive__date">{{ post.date | date: "%d.%m.%Y" }}</em>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
 </section>

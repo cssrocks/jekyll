@@ -21,3 +21,13 @@ $icons: sprite-map("icons/*.png", $spacing: 10px);
 @mixin si($sprite, $map: $icons){
 	background: sprite($map, $sprite) no-repeat;
 }
+
+//svg
+$svg: "svg/";
+@mixin svg($name, $width, $height){
+	 width: $width + px;
+	 height: $height + px;
+	 background-image: inline-image($svg + $name + ".svg");
+	 -webkit-background-size: 100% 100%;
+	 background-size: 100% 100%;
+}

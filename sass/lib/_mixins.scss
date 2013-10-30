@@ -32,6 +32,12 @@ $break-large: 1180px;
 	zoom: 1;
 }
 
+//REM Font Sizing
+@mixin font-size($sizeValue: 1.6) {
+	font-size: ($sizeValue * 10) + px;
+	font-size: $sizeValue + rem;
+}
+
 // TRANSITION
 @mixin transition($what) {
 	-moz-transition:    $what;

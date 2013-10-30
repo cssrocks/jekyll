@@ -31,7 +31,7 @@ section { padding: 3.2em 1.6em; overflow: hidden; zoom: 1; }
 
 .wrap { max-width: 50em; margin: auto; zoom: 1; }
 
-.header { position: relative; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-image: url(../img/bg.jpg); text-align: center; color: white; padding: 6em 1.6em 18em; overflow: hidden; zoom: 1; }
+.header { position: relative; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-color: #345461; background-image: url(../img/bg.jpg); text-align: center; color: white; padding: 6em 1.6em 18em; overflow: hidden; zoom: 1; }
 .header h1 { font-size: 40px; font-size: 4rem; }
 .header h1 a { padding: 0 0.5em; border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
 .header h2 { font-size: 18px; font-size: 1.8rem; font-family: "PT Sans", sans-serif; font-weight: 400; font-style: italic; }

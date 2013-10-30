@@ -3,7 +3,7 @@ layout: post
 title:  "Экспонат в кунсткамеру сайтостроения"
 date:   2013-10-5 16:01:17
 categories: post
-published: true
+published: false
 ---
 
 Так я писал html-код в 2009 году.<br>

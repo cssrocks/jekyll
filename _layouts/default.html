@@ -17,26 +17,27 @@
 	<script src="/js/common.js"></script>
 </head>
 <body>
+<!-- BEGIN .out -->
 <div class="out">
 	<header class="header">
-		<div class="header__in">
-			<h1 class="title"><a href="/">{{ site.name }}</a></h1>
+		<div class="header-i">
+			<a href="/">
+				<h1>{{ site.name }}</h1>
+			</a>
+				<h2>{{ site.description }}</h2>
 		</div>
 	</header>
-	<section class="content">
+	<section class="page">
 		{{ content }}
 	</section>
 	<div class="push"></div>
 </div>
+<!-- END .out -->
+
 <footer class="footer">
-	<div class="footer__in">
-		<div class="contact">
-		  <p>© <a href="mailto:denis.pismenny@gmail.com">Денис Письменный</a>, 2013</p>
-		  <p><a href="https://github.com/dpismenny">GitHub</a> &middot; <a href="https://twitter.com/dpismenny">Twitter</a></p>
-		</div>
-		<div class="footer__right">
-		  <p>Движок блога — <a href="http://jekyllrb.com/">Jekyll</a></p>
-		  <p>Хостинг — <a href="http://pages.github.com/">GitHub Pages</a></p>
+	<div class="footer-i">
+		<div class="footer__content">
+		  <p>© <a href="mailto:denis.pismenny@gmail.com">Денис Письменный</a>, 2013. Движок блога — <a href="http://jekyllrb.com/">Jekyll</a>. Хостинг — <a href="http://pages.github.com/">GitHub Pages</a></p>
 		</div>
 	</div>
 </footer>

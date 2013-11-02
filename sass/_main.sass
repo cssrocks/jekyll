@@ -71,9 +71,33 @@ section
 	background-image: url(../img/bg.jpg)
 	text-align: center
 	color: #fff
-	padding: 6em 1.6em 18em
+	padding: 10em 1.6em 10em
 	overflow: hidden
 	zoom: 1
+	&:before, &:after
+		position: absolute
+		width: 50%
+		left: 50%
+		bottom: 0px
+		height: 20px
+		margin: 0 10px
+		content: ''
+		background: #fff
+		-moz-transform: skewX(-45deg)
+		-webkit-transform: skewX(-45deg)
+		-o-transform: skewX(-45deg)
+		-ms-transform: skewX(-45deg)
+		transform: skewX(-45deg)
+		z-index: 100
+	&:before
+		left: auto
+		right: 50%
+		-moz-transform: skewX(45deg)
+		-webkit-transform: skewX(45deg)
+		-o-transform: skewX(45deg)
+		-ms-transform: skewX(45deg)
+		transform: skewX(45deg)
+
 	h1
 		+font-size(4)
 		a
@@ -106,10 +130,23 @@ section
 		+svg(add, 20, 20)
 		opacity: 0.7
 		+transition(all .3s linear)
+		z-index: 100
 		&:hover
 			opacity: 1
 			cursor: pointer
 			// +transform(rotate(360deg))
+	.header__texture
+		position: absolute
+		top: 0
+		left: 0
+		bottom: 0
+		right: 0
+		z-index: 10
+		content: ""
+		background: url(../img/grid.png)
+	.header__content
+		position: relative
+		z-index: 100
 
 .social
 	padding: 2em 1.6em
@@ -123,23 +160,27 @@ section
 		// text-transform: uppercase
 		color: #fff
 		margin: 0 2em
-		+font-size(1.8)
+		+font-size(1.2)
 		+transition(all .3s ease-in-out)
 		letter-spacing: .1em
 		&:hover
-			background: #7b7b7b
 			a
-				color: #fff
+				color: #111
+				border: 2px solid rgba(0,0,0,1)
 		a
 			+transition(all .3s ease-in-out)
 			display: block
-			padding: .2em 1em
-			border: 1px solid #7b7b7b
-			color: #7b7b7b
+			padding: 1em 4.5em
+			border: 2px solid rgba(0,0,0,0.4)
+			color: #111
 			text-decoration: none
-			font-family: 'PT Serif', serif
+			// font-family: 'PT Serif', serif
+			+border-radius(2px)
+			letter-spacing: 0.2em
+			text-transform: uppercase
 
 .archive
+	padding: 12em 1.6em
 	li
 		text-align: center
 		border-bottom: 1px solid #ddd
@@ -173,14 +214,20 @@ section
 	padding: 0 1.6em
 	overflow: hidden
 	zoom: 1
-	color: #bababa
 	.footer__content
 		display: inline-block
 		+font-size(1.2)
 		padding: 1em 2em
 		border: 1px solid rgba(#ccc, .4)
-		// +border-radius(5px)
+		+border-radius(4px)
 		margin: 2em 0
+		color: #bababa
+		+transition(all .3s linear)
+		&:hover
+			color: #111
+			border: 1px solid rgba(#ccc, .8)
+			a
+				color: #111
 	a
 		color: inherit
 		text-decoration: underline
